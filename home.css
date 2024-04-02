@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav_bar{
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    border: 2px solid white;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    position: fixed !important; 
+    width: 100%;
+    background-image: linear-gradient(to right,rgba(230, 0, 255, 0.703),rgba(216, 153, 223, 0.703),rgba(230, 0, 255, 0.703));
+    height: 70px;
+    font-size:larger;   
+    z-index: 4;
+}
+
+.icons{
+    color: white;
+    font-size: 24px;
+    font-weight: bolder;
+    margin-right: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+}
+
+.icons:hover{
+    text-decoration: underline;
+    color: black;
+    text-shadow: 1px 1px 1px #04100b;
+    letter-spacing: 2px;
+    word-spacing: 6px;
+    transition-duration: 1s;
+    font-family: Algerian;
+ }
+
+.name{
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-left: 40px;
+}
+
+.name:hover{
+   text-decoration: underline;
+   color: black;
+   text-shadow: 1px 1px 3px #04100b;
+   letter-spacing: 2px;
+   word-spacing: 6px;
+   transition-duration: 1s;
+   font-family: Algerian;
+}
+
+/* Navigation Bar End Here */
+
+
